@@ -74,6 +74,8 @@ http://<Public-IP-Address>80
 
  ![Screenshot from 2022-07-23 14-55-47](https://user-images.githubusercontent.com/106885875/180608165-1d4cb002-1ada-400b-b362-55235e307dee.png)
  
+  ![Screenshot from 2022-07-23 15-13-57](https://user-images.githubusercontent.com/106885875/180608859-a8a590a2-92fd-465e-8090-b0ae135ee37c.png)
+
   The created file to be removed via: 
   sudo rm /var/www/projectlamp/index.php
   
