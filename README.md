@@ -1,0 +1,2 @@
+# seyi_project1
+LAMP (WEB) STACK IMPLEMENTATION
