@@ -1,6 +1,6 @@
 # LAMP STACK IMPLEMENTATION
 
-##* STEP 1 — INSTALLING APACHE AND UPDATING THE FIREWALL##
+## * STEP 1 — INSTALLING APACHE AND UPDATING THE FIREWALL
 
 sudo apt update (update a list of packages in package manager)
 sudo apt install apache2 ( to run apache2 package installation)
@@ -11,7 +11,7 @@ curl http://localhost:80 (to access our shell on Ubuntu)
 http://3.83.99.105:80 (to run on a browser)
 ![Screenshot from 2022-07-23 13-56-25](https://user-images.githubusercontent.com/106885875/180605901-ab983533-88dc-4b57-a498-03c946c8809e.png)
 
-##* STEP 2- TO INSTALL MYSQL Server##
+## * STEP 2- TO INSTALL MYSQL Server
 
 sudo apt install mysql-server
 $ sudo mysql
@@ -39,7 +39,7 @@ sudo mysql -p
 
 ![Screenshot from 2022-07-23 14-23-42](https://user-images.githubusercontent.com/106885875/180606999-4460d489-ef05-45d0-b28f-bb86d8a322bc.png)
 
-##* STEP3- INSTALLING PHP##
+## * STEP3- INSTALLING PHP
 
 I installed i. PHP, ii. a PHP modlule that allows database interaction and iii. a module that alows Apache to hndle PHP files
 
@@ -50,7 +50,7 @@ php -v
 
 ![Screenshot from 2022-07-23 14-33-06](https://user-images.githubusercontent.com/106885875/180607275-228bfec8-68a4-4e02-83c2-4b0690dd1d98.png)
 
-##* STEP -4 CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE##
+## * STEP -4 CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE
 
 sudo mkdir /var/www/projectlamp
 sudo chown -R $USER:$USER /var/www/projectlamp
@@ -63,7 +63,7 @@ sudo a2dissite 000-default (NB this should be done except you use a custom domai
 
 sudo apache2ctl configtest (to check for syntax errors)
 
-##* STEP 5 — ENABLE PHP ON THE WEBSITE##
+## * STEP 5 — ENABLE PHP ON THE WEBSITE
 
 sudo vim /etc/apache2/mods-enabled/dir.conf
   (input and save content)
